@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Images Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('canva.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .image-container {
+            flex: 1;
+            max-width: 300px;
+            background-color: rgba(75, 167, 161, 0.8);
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="image-gallery">
+  <div class="row">
+    <div class="image-container">
+      <h3><marquee bgcolor="white">Got NAAC Achievement Award in our college</marquee><h3>
+      <p>I Proudly say I play one of the major roles in NAAC</p><br>
+      <img src="./images/naac.jpg" alt="Image 1">
+    </div>
+    <div class="image-container">
+      <h3><marquee bgcolor="white">STARTUP EXPO AT Gudlavalleru Engineering college</marquee></p>
+      <p>We went with a startup called BHIMAVARAM ONLINE</p>
+      <p>It is an e-commerce app which is located in Bhimavaram and the first ONDC approved app in local commerce</h3>
+      <img src="./images/gdc.jpg" alt="Image 2">
+    </div>
+  </div>
+  <div class="row">
+    <div class="image-container">
+      <h3><marquee bgcolor="white">In our college, I formed a club named SRKR CINECLUB and I am the co-founder of the club</marquee></h3>
+      <p>Currently, I am the vice-president of that club</p>
+      <p>This is the flashmob conducted by me</p>
+      <img src="./images/cine.jpg" alt="Image 3">
+    </div>
+    <div class="image-container">
+      <h3><marquee bgcolor="white">Official certification of CINECLUB given by our college vice-president, sir</marquee><h3>
+      <img src="./images/cine cer.jpg cer.jpg" alt="Image 4">
+    </div>
+  </div>
+  <div class="row">
+    <div class="image-container">
+      <h2><marquee bgcolor="white">Hurray! I got the 2nd prize</marquee></h2>
+      <p> I Got 2nd prize in District level Dance competition which was held in our college</p>
+      <img src="./images/dance.jpg" alt="Image 5">
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

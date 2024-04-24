@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        /* Additional CSS for navbar alignment */
+        nav {
+            position: fixed;
+            top: 0;
+            right: 0;
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: right; /* Align the list items to the right */
+        }
+
+        nav ul li {
+            
+            margin-left: 20px; /* Adjust spacing between navbar items */
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #e70c0c; /* Change color on hover */
+        }
+    </style>
+</head>
+
+<body style="background-image: url('./images/canva.png'); background-size: cover;">
+    <nav>
+        <ul>
+            <li><a href="http://127.0.0.1:5500/about.html">ABOUT</a></li>
+            <li><a href="http://127.0.0.1:5500/skills.html">SKILLS</a></li>
+            <li><a href="http://127.0.0.1:5500/contact.html">contact</a></li>
+            <li><a href="http://127.0.0.1:5500/education.html">EDUCATION</a></li>
+            <li><a href="http://127.0.0.1:5500/awards.html">ACHIEVEMENTS</a></li>
+            <li><a href="https://github.com/manojundurthi2003">GIT</a></li>
+        </ul>
+    </nav>
+    <div class="detail">
+        <h1>Hey,<br>Iam <span typewrite_wrap > Manoj Undurthi</span></h1>
+        <h2>As a diligent full-stack web developer</h2>
+    </div>
+    <div class="images" style="float: right; margin-right: 1px;">
+        <img src="./images/my pic.jpg" width="40" height="50" class="shape">
+    </div>
+</body>
+
+</html>
